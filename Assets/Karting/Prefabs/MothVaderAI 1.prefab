@@ -375,6 +375,7 @@ GameObject:
   - component: {fileID: 3337710735862510776}
   - component: {fileID: 5810088084525714434}
   - component: {fileID: 1216979718}
+  - component: {fileID: 1846073478}
   m_Layer: 2
   m_Name: MothVaderAI 1
   m_TagString: AIRacer
@@ -588,6 +589,19 @@ MonoBehaviour:
   TurnInputName: Horizontal
   AccelerateButtonName: Accelerate
   BrakeButtonName: Brake
+--- !u!114 &1846073478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748800674520424338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb7d58361c3c2f45a6a7ba9cc11a541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: {x: 0, y: 0.5, z: 0}
 --- !u!1 &1748800674589319132
 GameObject:
   m_ObjectHideFlags: 0

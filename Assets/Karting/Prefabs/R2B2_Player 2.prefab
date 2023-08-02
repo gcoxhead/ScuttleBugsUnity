@@ -12516,7 +12516,6 @@ GameObject:
   - component: {fileID: 4338474268504636886}
   - component: {fileID: 4338474268504636872}
   - component: {fileID: 927176275228732473}
-  - component: {fileID: 4338474268504636866}
   m_Layer: 2
   m_Name: R2B2_Player 2
   m_TagString: Player
@@ -12531,7 +12530,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4338474268504636876}
-  m_LocalRotation: {x: -0, y: -0.98958987, z: -0, w: 0.14391685}
+  m_LocalRotation: {x: 0, y: -0.98959, z: 0, w: 0.14391583}
   m_LocalPosition: {x: 40.59, y: 0.102, z: -58.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -12686,19 +12685,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Id: 19862a1a-a669-4135-8ea6-a40420b7aa2a
---- !u!114 &4338474268504636866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4338474268504636876}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcb7d58361c3c2f45a6a7ba9cc11a541, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: {x: 0, y: 1, z: 0}
 --- !u!1 &4338474268573105538
 GameObject:
   m_ObjectHideFlags: 0
@@ -13146,6 +13132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 690096313653746075}
+  - component: {fileID: 8603325400694293444}
   m_Layer: 2
   m_Name: GameObject
   m_TagString: Untagged
@@ -13172,6 +13159,19 @@ Transform:
   m_Father: {fileID: 4338474268504636875}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8603325400694293444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8261281348636684296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcb7d58361c3c2f45a6a7ba9cc11a541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: {x: 0, y: 0.5, z: 0}
 --- !u!1 &8795556884965022670
 GameObject:
   m_ObjectHideFlags: 0
