@@ -17,6 +17,8 @@ public class CrashObject : TargetObject
 
     Rigidbody m_rigid;
 
+    public GameObject mesh;
+
     void Start()
     {
         m_rigid = GetComponent<Rigidbody>();
@@ -30,11 +32,14 @@ public class CrashObject : TargetObject
         if (CollectVFX)
             CollectVFX.Play();
                
-        if (m_rigid) m_rigid.AddForce(forceUpOnCollide*Vector3.up, ForceMode.Impulse);
+        //if (m_rigid) m_rigid.AddForce(forceUpOnCollide*Vector3.up, ForceMode.Impulse);
         
         Objective.OnUnregisterPickup(this);
 
         TimeManager.OnAdjustTime(TimeGained);
+
+        Destroy(mesh);
+        
     }
 
     private void OnTriggerEnter(Collider other)
