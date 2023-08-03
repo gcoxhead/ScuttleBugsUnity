@@ -6,17 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Karting/Scenes/IntroMenu.unity
-    guid: d29260d8d84c94bd7ac95807b3da99d4
+    path: Assets/Karting/Scenes/DemoMenu.unity
+    guid: 69cce77daed282d4e9bd0f959fe83ec3
   - enabled: 1
-    path: Assets/Karting/Scenes/Level1_BugsHatch.unity
-    guid: 5da82015982e03847bdbc98910a622b7
-  - enabled: 1
-    path: Assets/Karting/Scenes/Level2_Graveyard.unity
-    guid: d370cbc17d97a68458ce516a514ce5c0
-  - enabled: 1
-    path: Assets/Karting/Scenes/Level3_CactusCanyon.unity
-    guid: 1369aaf2fa2e06744a21219bd4854833
+    path: Assets/Karting/Scenes/DemoLevel1.unity
+    guid: 74804d92fcf80464a9beb5397c00382b
   - enabled: 1
     path: Assets/Karting/Scenes/LoseScene.unity
     guid: 9c449e01147824b419cda406398fb2e7
