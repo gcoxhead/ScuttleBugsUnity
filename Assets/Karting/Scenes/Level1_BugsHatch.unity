@@ -58244,6 +58244,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3557261020130229098, guid: 45f901dd5d1713d4a858f2b7aa6d1108,
+        type: 3}
+      propertyPath: sharedProfile
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3557261020130229099, guid: 45f901dd5d1713d4a858f2b7aa6d1108,
         type: 3}
       propertyPath: m_RootOrder
@@ -58649,7 +58654,7 @@ MonoBehaviour:
     type: 3}
   Nozzles:
   - {fileID: 0}
-  SuspensionHeight: 0.1
+  SuspensionHeight: 0.101
   SuspensionSpring: 70000
   SuspensionDamp: 5000
   WheelsPositionVerticalOffset: 0.05
