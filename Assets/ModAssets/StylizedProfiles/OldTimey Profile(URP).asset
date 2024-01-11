@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   redOutRedIn:
-    m_OverrideState: 0
-    m_Value: 64
+    m_OverrideState: 1
+    m_Value: 123
   redOutGreenIn:
     m_OverrideState: 0
     m_Value: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0
 --- !u!114 &-3989982151797156593
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -74,10 +74,10 @@ MonoBehaviour:
     m_Value: {x: 0.60982645, y: 0.7403085, z: 1, w: 0}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.766453, z: 0.65578896, w: 0}
+    m_Value: {x: 1, y: 0.7088523, z: 0.5627937, w: 0}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.95224565, z: 0.6859172, w: 0}
+    m_Value: {x: 1, y: 0.94620585, z: 0.73516667, w: 0}
 --- !u!114 &-2016528712083191221
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -123,7 +123,7 @@ MonoBehaviour:
         m_PostInfinity: 2
         m_RotationOrder: 4
   red:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
       <length>k__BackingField: 2
       m_Loop: 0
@@ -287,27 +287,27 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 3
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.35
+    m_OverrideState: 1
+    m_Value: 0.508
   clamp:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 65472
   tint:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 1
   skipIterations:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   dirtTexture:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {fileID: 0}
     dimension: 1
   dirtIntensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 2.63
 --- !u!114 &-301326594549787161
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -373,16 +373,16 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1.27
   contrast:
     m_OverrideState: 0
     m_Value: 100
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.54111356, b: 0.13679248, a: 1}
+    m_Value: {r: 0.990566, g: 0.58552563, b: 0.22895159, a: 1}
   hueShift:
-    m_OverrideState: 0
-    m_Value: 106
+    m_OverrideState: 1
+    m_Value: 8
   saturation:
     m_OverrideState: 0
     m_Value: -100
@@ -420,13 +420,13 @@ MonoBehaviour:
   active: 1
   type:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 8
   intensity:
     m_OverrideState: 1
     m_Value: 1
   response:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 0.621
   texture:
     m_OverrideState: 0
     m_Value: {fileID: 0}
