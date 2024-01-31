@@ -17771,6 +17771,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 362201577608559507, guid: 43b91ff9132cac94593f9550c86757d1,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8166f525bf3517a41842e17f601f4bbd, type: 3}
     - target: {fileID: 1868373000394992035, guid: 43b91ff9132cac94593f9550c86757d1,
         type: 3}
       propertyPath: m_StaticShadowCaster
@@ -17780,7 +17785,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: a533219934975884e81c1add37af9930, type: 3}
+      objectReference: {fileID: 8300000, guid: 74a2609900820fd49b02ecb2cd911027, type: 3}
+    - target: {fileID: 3818447096822511429, guid: 43b91ff9132cac94593f9550c86757d1,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ba855d3cf196bd84a81ecdc61aed88bc, type: 3}
     - target: {fileID: 4237220612397172237, guid: 43b91ff9132cac94593f9550c86757d1,
         type: 3}
       propertyPath: m_StaticEditorFlags
